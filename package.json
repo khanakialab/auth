@@ -1,0 +1,26 @@
+{
+	"name": "@knesk/auth",
+	"version": "0.0.1",
+	"main": "index.js",
+	"author": "Aman Khanakia <aman@knesk.com>",
+	"license": "MIT",
+	"description": "A Node.js Auth Api Module to implement Login, Register, Forgot Passowrd, Change Password api.",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:kneks/auth.git"
+	},
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"joi": "^13.6.0",
+		"jsonwebtoken": "^8.3.0",
+		"jwt-decode": "^2.2.0",
+		"moment": "^2.22.2",
+		"mongodb": "^3.1.4",
+		"nodemailer": "^6.0.0",
+		"twig": "^1.13.2"
+	}
+}
